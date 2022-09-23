@@ -1,0 +1,14 @@
+{
+  "name": "todosapi-userinfo-bearer",
+  "version": "0.0.0",
+  "description": "UserInfo API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "",
+  "license": "ISC"
+}
