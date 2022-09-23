@@ -29,7 +29,7 @@ exports = module.exports = function(usersDB, tokensDB) {
   router.get('/userinfo',
     authenticator.authenticate('bearer', { session: false, failWithError: true }),
     function(req, res, next) {
-      usersDB.get('SELECT * FROM users WHERE id = ?', 1, function(err, row) {
+      usersDB.get('SELECT * FROM users WHERE id = ?', [ req.user.id ], function(err, row) {
         if (err) { return next(err); }
         if (!row) { return next(createError(403)); }
         
