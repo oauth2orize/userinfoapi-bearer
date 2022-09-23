@@ -1,14 +1,38 @@
 {
   "name": "todosapi-userinfo-bearer",
   "version": "0.0.0",
+  "private": true,
   "description": "UserInfo API",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "api"
+    "example",
+    "express",
+    "oauth2orize",
+    "passport",
+    "sqlite"
   ],
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "https://www.jaredhanson.me/"
+  },
+  "homepage": "https://github.com/oauth2orize/todosapi-userinfo-bearer",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oauth2orize/todosapi-userinfo-bearer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oauth2orize/todosapi-userinfo-bearer/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jaredhanson"
+  },
+  "license": "Unlicense",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.1",
+    "http-errors": "^1.6.3",
+    "passport": "^0.6.0",
+    "passport-http-bearer": "^1.0.1"
+  }
 }
