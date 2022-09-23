@@ -1,8 +1,8 @@
 {
-  "name": "todosapi-userinfo-bearer",
+  "name": "@oauth2orize-examples/userinfoapi-bearer",
   "version": "0.0.0",
   "private": true,
-  "description": "UserInfo API",
+  "description": "UserInfo API using Express and Passport to authenticate bearer tokens.",
   "keywords": [
     "example",
     "express",
@@ -15,13 +15,13 @@
     "email": "jaredhanson@gmail.com",
     "url": "https://www.jaredhanson.me/"
   },
-  "homepage": "https://github.com/oauth2orize/todosapi-userinfo-bearer",
+  "homepage": "https://github.com/oauth2orize/userinfoapi-bearer",
   "repository": {
     "type": "git",
-    "url": "git://github.com/oauth2orize/todosapi-userinfo-bearer.git"
+    "url": "git://github.com/oauth2orize/userinfoapi-bearer.git"
   },
   "bugs": {
-    "url": "https://github.com/oauth2orize/todosapi-userinfo-bearer/issues"
+    "url": "https://github.com/oauth2orize/userinfoapi-bearer/issues"
   },
   "funding": {
     "type": "github",
