@@ -6,7 +6,6 @@
   "keywords": [
     "example",
     "express",
-    "oauth2orize",
     "passport",
     "sqlite"
   ],
